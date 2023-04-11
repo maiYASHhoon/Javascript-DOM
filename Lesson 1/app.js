@@ -14,7 +14,7 @@
 // console.log(document.forms);
 // console.log(document.images);
 
-//🙋‍♂️ SELECTORS
+//👨‍💻 SELECTORS👨‍💻
 /**
  * 💨 *GETELEMENTBYID*
  *
