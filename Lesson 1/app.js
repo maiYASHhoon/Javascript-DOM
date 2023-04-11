@@ -158,3 +158,71 @@
 // console.log(newDiv);
 
 // container.insertBefore(newDiv, h1);
+
+// 👨‍💻 EVENTS 👨‍💻//
+
+// var button = document
+//   .getElementById("button")
+//   .addEventListener("click", buttonClick);
+
+// function buttonClick(e) {
+//   console.log("Button Clicked");
+// document.getElementById("header-title").textContent = "Changed";
+// document.querySelector("#main").style.backgroundColor = "#f4f4f4";
+// console.log(e);
+// console.log(e.target);
+// console.log(e.target.id);
+// console.log(e.target.className);
+// console.log(e.target.classList);
+// var output = document.getElementById("output");
+// output.innerHTML = "<h3>" + e.target.id + "</h3>";
+// console.log(e.type);
+// console.log(e.clientX);
+// console.log(e.clientY);
+// 💨 for actal element cursor position
+// console.log(e.offsetY);
+// 💨 when we move down we see we hold the alt or crtl key
+// console.log(e.altKey);
+// console.log(e.ctrlKey);
+// }
+
+// 💨 Mouse Events
+
+// var button = document.getElementById("button");
+// .addEventListener("click", runEvent);
+// .addEventListener("dblclick", runEvent);
+// .addEventListener("mousedown", runEvent);
+// .addEventListener("mouseup", runEvent);
+
+// var box = document.getElementById("box");
+
+// box.addEventListener("mouseenter", runEvent);
+// box.addEventListener("mouseleave", runEvent);
+
+// box.addEventListener("mouseover", runEvent);
+// box.addEventListener("mouseout", runEvent);
+
+// box.addEventListener("mousemove", runEvent);
+
+// var itemInput = document.querySelector('input[type="text"]');
+// var form = document.querySelector("form");
+// var select = document.querySelector("select");
+
+// console.log(itemInput);
+// itemInput.addEventListener("keydown", runEvent);
+// select.addEventListener("change", runEvent);
+
+// form.addEventListener("submit", runEvent);
+
+// function runEvent(e) {
+//   e.preventDefault();
+//   console.log("EVENT TYPE: " + e.type);
+
+// console.log(e.target.value);
+// document.getElementById("output").innerHTML = "<h3> +w.target.value+ </h3>";
+
+// output.innerHTML =
+//   "<h3>MouseX: " + e.offsetX + " </h3><h3>MouseY: " + e.offsetY + " </h3>";
+
+// box.style.backgroundColor = "rgb(" + e.offsetX + ", " + e.offsetY + ", 40)";
+// }`
