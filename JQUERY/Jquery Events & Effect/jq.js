@@ -88,3 +88,23 @@ $("document").ready(function () {
     );
   });
 });
+
+// $('#img1').animate({}, 2000, function(){})
+
+/*$("document").ready(function () {
+  $("#btn1").click(function () {
+    $("#img1").slideUp(2000, function () {
+      $("#img1").slideDown(2000);
+    });
+  });
+});*/
+/*$("document").ready(function () {
+  $("#btn1").click(function () {
+    $("#img1")
+      .slideUp(2000)
+      .css("opacity", "1")
+      .slideDown(3000)
+      .fadeOut(2000)
+      .fadeIn(2000);
+  });
+});*/
